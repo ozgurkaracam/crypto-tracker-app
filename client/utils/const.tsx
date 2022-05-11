@@ -1,0 +1,7 @@
+export const primary="#37474f"
+export const light="#62727b"
+export const dark="#102027"
+export const secondary="#f4511e"
+export const secondaryLight="#ff844c"
+export const secondaryDark="#b91400"
+export const baseURL="https://sleepy-mountain-56678.herokuapp.com"
