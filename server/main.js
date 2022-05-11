@@ -7,7 +7,7 @@ const getProfile=require('./routes/getProfile')
 server.use(express.json())
 server.use('/',getProfile)
 const srv=server.listen(process.env.PORT,()=>{
-    console.log("listening.. PORT:"+process.env.PORT)
+    console.log("listening.. PORT:"+process.env.PORT || 80)
 })
 
 const io=new Server(srv)
